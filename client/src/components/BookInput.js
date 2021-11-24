@@ -24,6 +24,7 @@ const BookInput = () => {
     }
     return (
         <div>
+        <h1>Books</h1>
           <h2>Book Input:</h2>
             <form onSubmit={submit} onChange={handleChange}>
                 <label htmlFor="name">name</label>
