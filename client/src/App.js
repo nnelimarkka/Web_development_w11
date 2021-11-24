@@ -12,6 +12,7 @@ function App() {
         <Routes>
           <Route path="/book/:name" element={<BookData />}></Route>
           <Route path="/" element={<BookInput />}></Route>
+          <Route element={<My404 />}></Route>
         </Routes>
       </Router>
     </div>
